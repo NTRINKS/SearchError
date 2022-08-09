@@ -46,7 +46,7 @@ function App() {
     let stimuli: Stimulus[] = [];
     let stim: Stimulus;
     // target absent trials
-    for (let j = 0; j < 50; j++) {
+    for (let j = 0; j < 10; j++) {
       for (let i = 0; i < 25; i++) {
         stim = {
           type: 1,
@@ -71,7 +71,7 @@ function App() {
     }
 
     // target present
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 10; i++) {
       for (let j = 0; j < 24; j++) {
         stim = {
           type: 1,
